@@ -1,0 +1,14 @@
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.body-container {
+    height: 200px;
+    background-color: aqua;
+}
+
+.body-container2 {
+    height: 200px;
+    background-color: rebeccapurple;
+}
