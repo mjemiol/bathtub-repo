@@ -37,7 +37,7 @@
                 }
                 
                 .hero {
-                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("app/assets/images/jared-rice-PibraWHb4h8-unsplash.jpg");
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/Users/developer2/Desktop/bath1/app/assets/images/jared-rice-PibraWHb4h8-unsplash.jpg");
                     background-size: cover;
                     background-repeat: no-repeat;
                     top: 0px;
@@ -307,7 +307,7 @@
                 }
                 
                 .services {
-                    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('app/assets/images/krystal-black-Wj5niePWnvQ-unsplash.png');
+                    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Users/developer2/Desktop/bath1/app/assets/images/krystal-black-Wj5niePWnvQ-unsplash.png');
                     background-size: cover;
                     background-attachment: fixed;
                 }
