@@ -1,51 +1,367 @@
 <!DOCTYPE html>
-< lang="en">
+<html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="author" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
-        <link rel="stylesheet" type="text/css" href="app/assets/styles/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
-        <script src="script.js"></script>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="app/assets/styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="animate.css">
+</head>
 
-    <body>
+<body>
 
-        <div class="hero">
-            <div id="hero-nav">
-                <div class="hero-nav-content">
-                    <div class="hero-logo">
-                        <a href="#"><img src="app/assets/images/logo_color.svg"></a>
+    <div class="hero">
+        <div id="hero-nav">
+            <div class="hero-nav-content">
+                <div class="hero-logo">
+                    <a href="#"><img src="app/assets/images/logo_color.svg"></a>
+                </div>
+                <div class="main-menu container">
+                    <ul>
+                        <li><a class="active" href="#" rel="m_PageScroll2id">ГЛАВНАЯ</a></li>
+                        <li><a href="#about" rel="m_PageScroll2id">О КОМПАНИИ</a></li>
+                        <li><a href="#steps" rel="m_PageScroll2id">УСЛУГИ</a></li>
+                        <li><a href="#services" rel="m_PageScroll2id">ФОТО</a></li>
+                        <li><a href="#contact" rel="m_PageScroll2id">КОНТАКТЫ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <div id="small-menu">
+                <div class="mobile-top-strip">
+                    <div class="hero-logo"><img src="app/assets/images/logo_color.svg"></div>
+                    <div class="burger" id="habmurger"><img src="app/assets/images/menu.svg">
+                        <!-- <div class="hidden">
+                            <div class="cross-icon"><img src="app/assets/images/phone.svg"></div>
+                        </div> -->
                     </div>
-                    <div class="main-menu container">
-                        <ul>
-                            <li><a href="#">ГЛАВНАЯ</a></li>
-                            <li><a href="#about">О КОМПАНИИ</a></li>
-                            <li><a href="#steps">УСЛУГИ</a></li>
-                            <li><a href="#services">ФОТО</a></li>
-                            <li><a href="#contact">КОНТАКТЫ</a></li>
-                        </ul>
+
+                </div>
+                <ul id="mob-menu" class="mobile-list">
+                    <li><a href="#">ГЛАВНАЯ</a></li>
+                    <li><a href="#about">О КОМПАНИИ</a></li>
+                    <li><a href="#steps">УСЛУГИ</a></li>
+                    <li><a href="#services">ФОТО</a></li>
+                    <li><a href="#contact">КОНТАКТЫ</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <div class="contact-form-title">
+                <h1>Закажите бесплатную<br>консультацию</h1>
+            </div>
+            <div class="contact-form-subtitle">
+                <p>Введите номер телефона и Вы получите професиональную консультацию</p>
+            </div>
+            <form action="" method="get">
+                <input type="text" placeholder="Ваше имя" name="your-name" value="" size="40" class="contact-form-input">
+                <input type="text" placeholder="Номер телефона" name="your-surname" value="" size="40" class="contact-form-input">
+                <button type="submit" class="contact-form-btn">ЗАКАЗАТЬ</button>
+                <div class="contact-form-des">Мы гарантируем полную конфиденциальность! Ваши данные ни в коем случае не будут переданы третьим лицам!</div>
+            </form>
+        </div>
+    </div>
+
+    <div class="about container">
+        <a name="about">
+            <h2>О КОМПАНИИ</h2>
+        </a>
+        <div class="about-des">
+            <div class="row">
+                <div class="about description left wow">
+                    <h4>Мы работаем по новой технологии «Наливная ванна». Только качественными и проверенными материалами.</h4><br>
+                    <p>Реставрация ванн - это дать старой ванне новую жизнь и избежать лишних проблем и трaт! Акриловое покрытие - это нанесение нового покрытия на поверхность ванны методом налива!</p>
+                </div>
+                <div class="about description right wow">
+                    <p>Прежде чем приступить к заливке ванны акрилом необходимо тщательно её подготовить! Для этого используются разные виды средств, от моющих до наждачных кругов. Это важный процесс и занимает определенное количество времени! После этого
+                        ванна хорошо высушивается и заливается акрилом!Вся работа занимает 2 часа, но нельзя упустить ни одной детали! Всё очень важно !</p>
+                </div>
+            </div>
+        </div>
+        <div class="about-icons">
+            <div class="row">
+                <div class="about-icon-box wow">
+                    <img src="app/assets/images/watch.svg">
+                    <p>время <br>высыхания <br>24 часа</p>
+                </div>
+                <div class="about-icon-box wow">
+                    <img src="app/assets/images/tag3.svg">
+                    <p>гарантия <br>3 года</p>
+                </div>
+                <div class="about-icon-box wow">
+                    <img src="app/assets/images/history.svg">
+                    <p>срок службы <br>15 лет</p>
+                </div>
+                <div class="about-icon-box wow">
+                    <img src="app/assets/images/menu.svg">
+                    <p>толщина <br>слоя <br>до 5 мм</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="steps">
+        <div class="steps-strip">
+            <a name="steps">
+                <h2>Почему реставрация лучше чем покупка новой ванны?</h2>
+            </a>
+        </div>
+        <div class="container">
+            <div class="container-steps">
+                <div class="row">
+                    <div class="steps-boxes-one-left wow">
+                        <div class="title">
+                            <div class="title-number">10</div>
+                            <div class="title-des">причин почему лучше реставрировать <br>ванну нежели покупать новую</div>
+                        </div>
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <p class="list-number">01</p>
+                                    <p class="list-des">Это значительно дешевле!</p>
+                                </li>
+                                <li>
+                                    <p class="list-number">02</p>
+                                    <p class="list-des">Вам не нужно ничего ломать!</p>
+                                </li>
+                                <li>
+                                    <p class="list-number">03</p>
+                                    <p class="list-des">Вам не нужно думать Где купить Как привести И куда деть старую ванну!</p>
+                                </li>
+                                <li>
+                                    <p class="list-number">04</p>
+                                    <p class="list-des">Реставрация занимает всего два часа!</p>
+                                </li>
+                                <li>
+                                    <p class="list-number">05</p>
+                                    <p class="list-des">У вас нет никаких трудностей с установкой!</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="steps-boxes-one-right">
+                        <img src="app/assets/images/bath_right2.jpg">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="steps-boxes-two-left">
+                        <img src="app/assets/images/bath2.jpg">
+                    </div>
+                    <div class="steps-boxes-two-right wow">
+                        <div class="list">
+                            <ul>
+                                <li>
+                                    <p class="list-number">06</p>
+                                    <p class="list-des">Это абсолютно безопасно!</p>
+                                </li>
+                                <li>
+                                    <p class="list-number">07</p>
+                                    <p class="list-des">Всё что вам нужно просто Позвонить нам!</p>
+                                </li>
+                                <li>
+                                    <p class="list-number">08</p>
+                                    <p class="list-des">Срок службы от производителя 15 лет! </p>
+                                </li>
+                                <li>
+                                    <p class="list-number">09</p>
+                                    <p class="list-des">Мы используем только качественный материал!</p>
+                                </li>
+                                <li>
+                                    <p class="list-number">10</p>
+                                    <p class="list-des">Новая не значит лучшее!</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 
-            <div class="mobile-menu">
-                <div id="small-menu">
-                    <div class="mobile-top-strip">
-                        <div class="hero-logo"><img src="app/assets/images/logo_color.svg"></div>
-                        <div id="habmurger"><img src="app/assets/images/menu.svg">
-                            <div class="hidden">
-                                <div class="cross-icon"><img src="app/assets/images/phone.svg"></div>
-                            </div>
-                        </div>
+    <div class="services">
+        <a name="services">
+            <h2 class="title">НАШИ УСЛУГИ</h2>
+        </a>
+        <p class="des">Наши цены приятно вас порадуют!</p>
+        <div class="container">
+            <div class="row">
+                <div class="services-row-box wow">
+                    <div class="services-row-box-strip"></div>
+                    <div class="services-row-title">ВАННА <br>120 см</div>
+                    <div class="services-row-frame">Цена от 90 рублей</div>
+                    <div class="services-row-des">Ремонт ванны 120 см. <br>Время полного высыхания 48 часов <br> Время работы 2 часа
+                    </div>
+                    <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
+                </div>
+                <div class="services-row-box wow">
+                    <div class="services-row-box-strip"></div>
+                    <div class="services-row-title">ВАННА <br>150 см</div>
+                    <div class="services-row-frame">Цена от 100 рублей</div>
+                    <div class="services-row-des">Ремонт ванны 150 см.<br>Время полного высыхания <br>48 часов Время работы 2 часа
 
                     </div>
-                    <ul class="mobile-list hidden">
-                        <li><a href="#">ГЛАВНАЯ</a></li>
+                    <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
+                </div>
+                <div class="services-row-box wow">
+                    <div class="services-row-box-strip"></div>
+                    <div class="services-row-title">ВАННА <br>170 см</div>
+                    <div class="services-row-frame">Цена от 110 рублей</div>
+                    <div class="services-row-des">Ремонт ванны 170 см.<br>Время полного высыхания 48 часов<br>Время работы 2 часа
+                    </div>
+                    <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="des-sec">Дополнительные УСЛУГИ </div>
+        <div class="container">
+            <div class="row">
+                <div class="services-row-box wow">
+                    <div class="services-row-box-strip"></div>
+                    <div class="services-row-title">Снятие старого<br> покрытия</div>
+                    <div class="services-row-des-bold">Если ванна ранее уже чем то<br> покрывалась
+                    </div>
+                    <div class="services-row-frame">Цена 20 рублей</div>
+                    <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
+                </div>
+                <div class="services-row-box wow">
+                    <div class="services-row-box-strip"></div>
+                    <div class="services-row-title">Демонтаж и <br>установка нового<br> сифона</div>
+                    <div class="services-row-des-bold">
+                    </div>
+                    <div class="services-row-frame">Цена 20 рублей</div>
+                    <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
+                </div>
+                <div class="services-row-box wow">
+                    <div class="services-row-box-strip"></div>
+                    <div class="services-row-title">Цвет<br> не белый</div>
+                    <div class="services-row-des-bold">
+                    </div>
+                    <div class="services-row-frame">Цена 10 рублей</div>
+                    <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="des-th">Реставрируем все виды ванн:</div>
+        <div class="container">
+            <div class="row services-icons">
+                <div class="services-icons-single">
+                    <div class="services-icons-single-icon"><img src="app/assets/images/check_circle_small.png"></div>
+                    <div class="services-icons-single-title">чугунные</div>
+                </div>
+                <div class="services-icons-single">
+                    <div class="services-icons-single-icon"><img src="app/assets/images/check_circle_small.png"></div>
+                    <div class="services-icons-single-title">стальные</div>
+                </div>
+                <div class="services-icons-single">
+                    <div class="services-icons-single-icon"><img src="app/assets/images/check_circle_small.png"></div>
+                    <div class="services-icons-single-title">акриловые </div>
+                </div>
+                <div class="services-icons-single">
+                    <div class="services-icons-single-icon"><img src="app/assets/images/check_circle_small.png"></div>
+                    <div class="services-icons-single-title">джакузи</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="container">
+            <a name="gallery">
+                <h2 class="gallery-title">ФОТО</h2>
+            </a>
+            <div class="row">
+                <div class="gallery-photo wow"><img src="app/assets/images/IMG_0318.png">
+                </div>
+                <div class="gallery-photo wow"><img src="app/assets/images/IMG_0319.png">
+                </div>
+                <div class="gallery-photo wow"><img src="app/assets/images/IMG_0311.png">
+                </div>
+                <div class="gallery-photo wow"><img src="app/assets/images/IMG_0312.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="gallery-photo wow"><img src="app/assets/images/IMG_0314.png">
+                </div>
+                <div class="gallery-photo wow"><img src="app/assets/images/IMG_0315.png">
+                </div>
+                <div class="gallery-photo wow"><img src="app/assets/images/IMG_0316.png">
+                </div>
+                <div class="gallery-photo wow"><img src="app/assets/images/photo_2020-01-10_20-28-41.png">
+                </div>
+            </div>
+            <div class="row">
+                <div class="gallery-photo wow"><img src="app/assets/images/IMG_0313.png">
+                </div>
+                <div class="gallery-photo wow"><img src="app/assets/images/IMG_0321.png">
+                </div>
+                <div class="gallery-photo wow"><img src="app/assets/images/IMG_0322.png">
+                </div>
+                <div class="gallery-photo wow"><img src="app/assets/images/IMG_0310.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="container">
+            <a name="contact">
+                <h2 class="contact-title">КОНТАКТЫ</h2>
+            </a>
+            <div class="contact-subtitle">Вы можете позвонить, написать нам. Или же заполните контактную <br>форму и мы сами свяжемся с Вами!</div>
+            <div class="row contact-details">
+                <div class="contact-details-map"><iframe src="https://www.google.com/maps/d/embed?mid=1C7VcFpqO7Yve1DDlBxYyT7BynGF-ZLho&hl=pl" width="600" height="350"></iframe></div>
+                <div class="contact-details-form">
+                    <form action="" method="get">
+                        <input type="text" placeholder="Ваше имя" name="your-name" value="" size="40" class="contact-details-input">
+                        <input type="text" placeholder="Номер телефона" name="your-surname" value="" size="40" class="contact-details-input">
+                        <input type="text" placeholder="Адрес электронной почты" name="your-surname" value="" size="40" class="contact-details-input">
+                        <button type="submit" class="contact-form-btn">ЗАКАЗАТЬ</button>
+                        <div class="contact-form-des">Мы гарантируем полную конфиденциальность! Ваши данные ни в коем случае не будут переданы третьим лицам!</div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-left">
+                    <div class="footer-left-logo"><img src="app/assets/images/logo_mono.svg"></div>
+                    <div class="footer-left-des"><a name="footer">ИП Филютич Александр Павлович<br><br> УНП 291469570</a></div>
+                </div>
+                <div class="footer-adress">
+                    <div class="footer-adress-title">КОНТАКТЫ:</div>
+                    <div class="footer-adress-details">
+                        <div class="footer-adress-row">
+                            <div class="footer-adress-row-icon"><img src="app/assets/images/phone.svg"></div>
+                            <div class="footer-adress-row-text">+ 378907859845</div>
+                        </div>
+                        <div class="footer-adress-row">
+                            <div class="footer-adress-row-icon"><img src="app/assets/images/mail.svg"></div>
+                            <div class="footer-adress-row-text">info@beaver.by</div>
+                        </div>
+                        <div class="footer-adress-row">
+                            <div class="footer-adress-row-icon"><img src="app/assets/images/home.svg"></div>
+                            <div class="footer-adress-row-text">Гомельская область</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="#" class="active">ГЛАВНАЯ</a></li>
                         <li><a href="#about">О КОМПАНИИ</a></li>
                         <li><a href="#steps">УСЛУГИ</a></li>
                         <li><a href="#services">ФОТО</a></li>
@@ -53,336 +369,40 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="contact-form">
-                <div class="contact-form-title">
-                    <h1>Закажите бесплатную<br>консультацию</h1>
-                </div>
-                <div class="contact-form-subtitle">
-                    <p>Введите номер телефона и Вы получите професиональную консультацию</p>
-                </div>
-                <form action="" method="get">
-                    <input type="text" placeholder="Ваше имя" name="your-name" value="" size="40" class="contact-form-input">
-                    <input type="text" placeholder="Номер телефона" name="your-surname" value="" size="40" class="contact-form-input">
-                    <button type="submit" class="contact-form-btn">ЗАКАЗАТЬ</button>
-                    <div class="contact-form-des">Мы гарантируем полную конфиденциальность! Ваши данные ни в коем случае не будут переданы третьим лицам!</div>
-                </form>
-            </div>
         </div>
+    </div>
 
-        <div class="about container">
-            <a name="about">
-                <h2>О КОМПАНИИ</h2>
-            </a>
-            <div class="about-des">
-                <div class="row">
-                    <div class="about description">
-                        <h4>Мы работаем по новой технологии «Наливная ванна». Только качественными и проверенными материалами.</h4><br>
-                        <p>Реставрация ванн - это дать старой ванне новую жизнь и избежать лишних проблем и трaт! Акриловое покрытие - это нанесение нового покрытия на поверхность ванны методом налива!</p>
-                    </div>
-                    <div class="about description">
-                        <p>Прежде чем приступить к заливке ванны акрилом необходимо тщательно её подготовить! Для этого используются разные виды средств, от моющих до наждачных кругов. Это важный процесс и занимает определенное количество времени! После
-                            этого ванна хорошо высушивается и заливается акрилом!Вся работа занимает 2 часа, но нельзя упустить ни одной детали! Всё очень важно !</p>
-                    </div>
-                </div>
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright-left">© 2020 Beaver. Все права защищены.
             </div>
-            <div class="about-icons">
-                <div class="row">
-                    <div class="about-icon-box">
-                        <img src="app/assets/images/watch.svg">
-                        <p>время <br>высыхания <br>24 часа</p>
-                    </div>
-                    <div class="about-icon-box">
-                        <img src="app/assets/images/tag3.svg">
-                        <p>гарантия <br>3 года</p>
-                    </div>
-                    <div class="about-icon-box">
-                        <img src="app/assets/images/history.svg">
-                        <p>срок службы <br>15 лет</p>
-                    </div>
-                    <div class="about-icon-box">
-                        <img src="app/assets/images/menu.svg">
-                        <p>толщина <br>слоя <br>до 5 мм</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="steps">
-            <div class="steps-strip">
-                <a name="steps">
-                    <h2>Почему реставрация лучше чем покупка новой ванны?</h2>
-                </a>
-            </div>
-            <div class="container">
-                <div class="container-steps">
-                    <div class="row">
-                        <div class="steps-boxes-one-left">
-                            <div class="title">
-                                <div class="title-number">10</div>
-                                <div class="title-des">причин почему лучше реставрировать <br>ванну нежели покупать новую</div>
-                            </div>
-                            <div class="list">
-                                <ul>
-                                    <li>
-                                        <p class="list-number">01</p>
-                                        <p class="list-des">Это значительно дешевле!</p>
-                                    </li>
-                                    <li>
-                                        <p class="list-number">02</p>
-                                        <p class="list-des">Вам не нужно ничего ломать!</p>
-                                    </li>
-                                    <li>
-                                        <p class="list-number">03</p>
-                                        <p class="list-des">Вам не нужно думать Где купить Как привести И куда деть старую ванну!</p>
-                                    </li>
-                                    <li>
-                                        <p class="list-number">04</p>
-                                        <p class="list-des">Реставрация занимает всего два часа!</p>
-                                    </li>
-                                    <li>
-                                        <p class="list-number">05</p>
-                                        <p class="list-des">У вас нет никаких трудностей с установкой!</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="steps-boxes-one-right">
-                            <img src="app/assets/images/bath_right2.jpg">
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="steps-boxes-two-left">
-                            <img src="app/assets/images/bath2.jpg">
-                        </div>
-                        <div class="steps-boxes-two-right">
-                            <div class="list">
-                                <ul>
-                                    <li>
-                                        <p class="list-number">06</p>
-                                        <p class="list-des">Это абсолютно безопасно!</p>
-                                    </li>
-                                    <li>
-                                        <p class="list-number">07</p>
-                                        <p class="list-des">Всё что вам нужно просто Позвонить нам!</p>
-                                    </li>
-                                    <li>
-                                        <p class="list-number">08</p>
-                                        <p class="list-des">Срок службы от производителя 15 лет! </p>
-                                    </li>
-                                    <li>
-                                        <p class="list-number">09</p>
-                                        <p class="list-des">Мы используем только качественный материал!</p>
-                                    </li>
-                                    <li>
-                                        <p class="list-number">10</p>
-                                        <p class="list-des">Новая не значит лучшее!</p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="services">
-            <a name="services">
-                <h2 class="title">НАШИ УСЛУГИ</h2>
-            </a>
-            <p class="des">Наши цены приятно вас порадуют!</p>
-            <div class="container">
-                <div class="row">
-                    <div class="services-row-box">
-                        <div class="services-row-box-strip"></div>
-                        <div class="services-row-title">ВАННА <br>120 см</div>
-                        <div class="services-row-frame">Цена от 90 рублей</div>
-                        <div class="services-row-des">Ремонт ванны 120 см. <br>Время полного высыхания 48 часов <br> Время работы 2 часа
-                        </div>
-                        <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
-                    </div>
-                    <div class="services-row-box">
-                        <div class="services-row-box-strip"></div>
-                        <div class="services-row-title">ВАННА <br>150 см</div>
-                        <div class="services-row-frame">Цена от 100 рублей</div>
-                        <div class="services-row-des">Ремонт ванны 150 см.<br>Время полного высыхания <br>48 часов Время работы 2 часа
-
-                        </div>
-                        <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
-                    </div>
-                    <div class="services-row-box">
-                        <div class="services-row-box-strip"></div>
-                        <div class="services-row-title">ВАННА <br>170 см</div>
-                        <div class="services-row-frame">Цена от 110 рублей</div>
-                        <div class="services-row-des">Ремонт ванны 170 см.<br>Время полного высыхания 48 часов<br>Время работы 2 часа
-                        </div>
-                        <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="des-sec">Дополнительные УСЛУГИ </div>
-            <div class="container">
-                <div class="row">
-                    <div class="services-row-box">
-                        <div class="services-row-box-strip"></div>
-                        <div class="services-row-title">Снятие старого<br> покрытия</div>
-                        <div class="services-row-des-bold">Если ванна ранее уже чем то<br> покрывалась
-                        </div>
-                        <div class="services-row-frame">Цена 20 рублей</div>
-                        <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
-                    </div>
-                    <div class="services-row-box">
-                        <div class="services-row-box-strip"></div>
-                        <div class="services-row-title">Демонтаж и <br>установка нового<br> сифона</div>
-                        <div class="services-row-des-bold">
-                        </div>
-                        <div class="services-row-frame">Цена 20 рублей</div>
-                        <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
-                    </div>
-                    <div class="services-row-box">
-                        <div class="services-row-box-strip"></div>
-                        <div class="services-row-title">Цвет<br> не белый</div>
-                        <div class="services-row-des-bold">
-                        </div>
-                        <div class="services-row-frame">Цена 10 рублей</div>
-                        <button type="button" class="services-row-btn"><a href="#contact">ЗАКАЗАТЬ УСЛУГУ</a></button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="des-th">Реставрируем все виды ванн:</div>
-            <div class="container">
-                <div class="row services-icons">
-                    <div class="services-icons-single">
-                        <div class="services-icons-single-icon"><img src="app/assets/images/check_circle_small.png"></div>
-                        <div class="services-icons-single-title">чугунные</div>
-                    </div>
-                    <div class="services-icons-single">
-                        <div class="services-icons-single-icon"><img src="app/assets/images/check_circle_small.png"></div>
-                        <div class="services-icons-single-title">стальные</div>
-                    </div>
-                    <div class="services-icons-single">
-                        <div class="services-icons-single-icon"><img src="app/assets/images/check_circle_small.png"></div>
-                        <div class="services-icons-single-title">акриловые </div>
-                    </div>
-                    <div class="services-icons-single">
-                        <div class="services-icons-single-icon"><img src="app/assets/images/check_circle_small.png"></div>
-                        <div class="services-icons-single-title">джакузи</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="gallery">
-            <div class="container">
-                <a name="gallery">
-                    <h2 class="gallery-title">ФОТО</h2>
-                </a>
-                <div class="row">
-                    <div class="gallery-photo"><img src="app/assets/images/IMG_0318.png">
-                    </div>
-                    <div class="gallery-photo"><img src="app/assets/images/IMG_0319.png">
-                    </div>
-                    <div class="gallery-photo"><img src="app/assets/images/IMG_0311.png">
-                    </div>
-                    <div class="gallery-photo"><img src="app/assets/images/IMG_0312.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="gallery-photo"><img src="app/assets/images/IMG_0314.png">
-                    </div>
-                    <div class="gallery-photo"><img src="app/assets/images/IMG_0315.png">
-                    </div>
-                    <div class="gallery-photo"><img src="app/assets/images/IMG_0316.png">
-                    </div>
-                    <div class="gallery-photo"><img src="app/assets/images/photo_2020-01-10_20-28-41.png">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="gallery-photo"><img src="app/assets/images/IMG_0313.png">
-                    </div>
-                    <div class="gallery-photo"><img src="app/assets/images/IMG_0321.png">
-                    </div>
-                    <div class="gallery-photo"><img src="app/assets/images/IMG_0322.png">
-                    </div>
-                    <div class="gallery-photo"><img src="app/assets/images/IMG_0310.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="contact">
-            <div class="container">
-                <a name="contact">
-                    <h2 class="contact-title">КОНТАКТЫ</h2>
-                </a>
-                <div class="contact-subtitle">Вы можете позвонить, написать нам. Или же заполните контактную <br>форму и мы сами свяжемся с Вами!</div>
-                <div class="row contact-details">
-                    <div class="contact-details-map"><iframe src="https://www.google.com/maps/d/embed?mid=1C7VcFpqO7Yve1DDlBxYyT7BynGF-ZLho&hl=pl" width="600" height="350"></iframe></div>
-                    <div class="contact-details-form">
-                        <form action="" method="get">
-                            <input type="text" placeholder="Ваше имя" name="your-name" value="" size="40" class="contact-details-input">
-                            <input type="text" placeholder="Номер телефона" name="your-surname" value="" size="40" class="contact-details-input">
-                            <input type="text" placeholder="Адрес электронной почты" name="your-surname" value="" size="40" class="contact-details-input">
-                            <button type="submit" class="contact-form-btn">ЗАКАЗАТЬ</button>
-                            <div class="contact-form-des">Мы гарантируем полную конфиденциальность! Ваши данные ни в коем случае не будут переданы третьим лицам!</div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-left">
-                        <div class="footer-left-logo"><img src="app/assets/images/logo_mono.svg"></div>
-                        <div class="footer-left-des"><a name="footer">ИП Филютич Александр Павлович<br><br> УНП 291469570</a></div>
-                    </div>
-                    <div class="footer-adress">
-                        <div class="footer-adress-title">КОНТАКТЫ:</div>
-                        <div class="footer-adress-details">
-                            <div class="footer-adress-row">
-                                <div class="footer-adress-row-icon"><img src="app/assets/images/phone.svg"></div>
-                                <div class="footer-adress-row-text">+ 378907859845</div>
-                            </div>
-                            <div class="footer-adress-row">
-                                <div class="footer-adress-row-icon"><img src="app/assets/images/mail.svg"></div>
-                                <div class="footer-adress-row-text">info@beaver.by</div>
-                            </div>
-                            <div class="footer-adress-row">
-                                <div class="footer-adress-row-icon"><img src="app/assets/images/home.svg"></div>
-                                <div class="footer-adress-row-text">Гомельская область</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="footer-menu">
-                        <ul>
-                            <li><a href="#">ГЛАВНАЯ</a></li>
-                            <li><a href="#about">О КОМПАНИИ</a></li>
-                            <li><a href="#steps">УСЛУГИ</a></li>
-                            <li><a href="#services">ФОТО</a></li>
-                            <li><a href="#contact">КОНТАКТЫ</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="copyright">
-            <div class="container">
-                <div class="copyright-left">© 2020 Beaver. Все права защищены.
-                </div>
-                <div class="copyright-right"><a href="https://timdesign.top/" target="_blank">Студия веб-дизайна - timdesign.top
+            <div class="copyright-right"><a href="https://timdesign.top/" target="_blank">Студия веб-дизайна - timdesign.top
                 </a></div>
-            </div>
         </div>
-        </div>
-        <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+    </div>
+    </div>
 
-    </body>
+    <script src="jquery.js"></script>
+    <script src="wow.min.js"></script>
+    <script src="jquery.malihu.PageScroll2id.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        var hamburger = document.getElementById('habmurger');
+
+
+        document.addEventListener('click', function(event) {
+            console.log('ok1');
+            var menuMob = document.getElementById('mob-menu');
+            if (menuMob.style.maxHeight) {
+                menuMob.style.maxHeight = null;
+                console.log('ok2');
+            } else {
+                menuMob.style.maxHeight = menuMob.scrollHeight + "px";
+            }
+
+        }, false);
+    </script>
+</body>
+
+</html>

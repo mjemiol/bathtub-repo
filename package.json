@@ -19,6 +19,7 @@
     "node-sass": "^4.13.1"
   },
   "dependencies": {
+    "jquery": "^3.4.1",
     "npm": "^6.13.7"
   }
 }
