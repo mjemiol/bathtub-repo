@@ -104,11 +104,19 @@
                     position: fixed;
                     width: 100%;
                     z-index: 999;
-                    box-shadow: 0px 1px 2px #30bfce7a;
+                    box-shadow: 0px 2px 3px #30bfceb0;
+                }
+                
+                ul#mob-menu {
+                    border-bottom: 2px solid #30BFCE;
                 }
                 
                 #mob-menu {
                     transition: all 0.5 ease-in-out;
+                }
+                
+                li.contact-link {
+                    border-bottom: none!important;
                 }
                 
                 ul.mobile-list {
@@ -323,12 +331,19 @@
                 
                 .steps-boxes-one-left {
                     width: 50%;
+                    background-image: url('/app/assets/images/clean_transparent.svg');
+                    background-position: center;
+                    background-size: cover;
                 }
                 
                 .steps-boxes-two-right {
                     width: 50%;
                     display: flex;
                     justify-content: center;
+                    background-image: url('/app/assets/images/bath_logo_white.svg');
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
                 }
                 
                 .steps-boxes-two-left {
@@ -532,10 +547,6 @@
                     max-width: 220px;
                     height: 220px;
                     margin-bottom: 50px;
-                }
-                
-                .gallery img:hover {
-                    border: 10px solid #239aa6;
                 }
                 
                 .contact-subtitle {
@@ -777,7 +788,7 @@
                     }
                     .contact-form {
                         width: 460px;
-                        margin-top: 2%;
+                        margin-top: 12%;
                         padding: 30px;
                     }
                     .contact-form-subtitle p {
@@ -856,7 +867,7 @@
                         padding: 01px 16px;
                     }
                     .contact-form {
-                        margin-top: 4%;
+                        margin-top: 12%;
                     }
                     .contact-form h1 {
                         font-size: 26px;
@@ -965,7 +976,7 @@
                     }
                     .contact-form {
                         width: 400px;
-                        margin-top: 0%;
+                        margin-top: 15%;
                     }
                     .contact-form-input {
                         width: 330px;
@@ -1103,7 +1114,7 @@
                     }
                     .contact-form {
                         width: 330px;
-                        margin-top: 3%;
+                        margin-top: 23%;
                     }
                     .contact-details-form {
                         padding: 30px;
@@ -1188,12 +1199,12 @@
                     h2 {
                         font-size: 18px;
                     }
+                    .contact-form {
+                        margin-top: 22%;
+                    }
                     .contact-form-subtitle p {
                         color: #fff;
                         padding: 10px 50px 10px 50px;
-                    }
-                    .contact-form {
-                        margin-top: -10%;
                     }
                     .contact-form-input {
                         width: 200px;
@@ -1458,11 +1469,6 @@
                     animation-duration: 1.5s;
                 }
                 
-                .services-row-box:hover {
-                    transform: scale(1.1);
-                    z-index: 2;
-                }
-                
                 @-webkit-keyframes lightSpeedIn {
                     from {
                         -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
@@ -1519,4 +1525,20 @@
                 
                 .hide {
                     display: none;
+                }
+                
+                .services-row-box {
+                    transition: all .2s ease-in-out;
+                }
+                
+                .services-row-box:hover {
+                    transform: scale(1.1);
+                }
+                
+                .gallery-photo {
+                    transition: all .2s ease-in-out;
+                }
+                
+                .gallery-photo:hover {
+                    transform: scale(1.3);
                 }

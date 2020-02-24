@@ -23,11 +23,11 @@
                 </div>
                 <div class="main-menu container">
                     <ul>
-                        <li><a class="active" href="#" rel="m_PageScroll2id">ГЛАВНАЯ</a></li>
-                        <li><a href="#about" rel="m_PageScroll2id">О КОМПАНИИ</a></li>
-                        <li><a href="#steps" rel="m_PageScroll2id">УСЛУГИ</a></li>
-                        <li><a href="#services" rel="m_PageScroll2id">ФОТО</a></li>
-                        <li><a href="#contact" rel="m_PageScroll2id">КОНТАКТЫ</a></li>
+                        <li><a class="active">ГЛАВНАЯ</a></li>
+                        <li><a href="#about">О КОМПАНИИ</a></li>
+                        <li><a href="#steps">УСЛУГИ</a></li>
+                        <li><a href="#services">ФОТО</a></li>
+                        <li><a href="#contact">КОНТАКТЫ</a></li>
                     </ul>
                 </div>
             </div>
@@ -38,9 +38,7 @@
                 <div class="mobile-top-strip">
                     <div class="hero-logo"><img src="app/assets/images/logo_color.svg"></div>
                     <div class="burger" id="habmurger"><img src="app/assets/images/menu.svg">
-                        <!-- <div class="hidden">
-                            <div class="cross-icon"><img src="app/assets/images/phone.svg"></div>
-                        </div> -->
+
                     </div>
 
                 </div>
@@ -49,7 +47,7 @@
                     <li><a href="#about">О КОМПАНИИ</a></li>
                     <li><a href="#steps">УСЛУГИ</a></li>
                     <li><a href="#services">ФОТО</a></li>
-                    <li><a href="#contact">КОНТАКТЫ</a></li>
+                    <li class="contact-link"><a href="#contact">КОНТАКТЫ</a></li>
                 </ul>
             </div>
         </div>
@@ -195,7 +193,7 @@
         <p class="des">Наши цены приятно вас порадуют!</p>
         <div class="container">
             <div class="row">
-                <div class="services-row-box wow">
+                <div class="services-row-box wow grow">
                     <div class="services-row-box-strip"></div>
                     <div class="services-row-title">ВАННА <br>120 см</div>
                     <div class="services-row-frame">Цена от 90 рублей</div>
@@ -391,7 +389,7 @@
         var hamburger = document.getElementById('habmurger');
 
 
-        document.addEventListener('click', function(event) {
+        hamburger.addEventListener('click', function(event) {
             console.log('ok1');
             var menuMob = document.getElementById('mob-menu');
             if (menuMob.style.maxHeight) {

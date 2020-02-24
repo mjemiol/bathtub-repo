@@ -10605,32 +10605,3 @@ $(document).ready(function() {
         $(this).addClass("active");
     });
 });
-
-// $(document).ready(function() {
-//     $('#hamburger').click(function() {
-//         $('.mobile-list ul').removeClass("hide");
-//         $(this).addClass("open");
-//     });
-// });
-
-
-// $(document).ready(function() {
-//     $('#hamburger').click(function() {
-//         $('.mobile-list ul').removeClass("hide");
-//     });
-// });
-
-
-// $(document).ready(function() {
-//     evt.preventDefault();
-//     $('#hamburger').on("click", function() {
-//         $('.mobile-list').removeClass('hide');
-//     });
-// });
-
-// $(document).ready(function() {
-//     evt.preventDefault();
-//     $('#hamburger').on("click", function() {
-//         $('.mobile-list').addClass('hide');
-//     });
-// });
